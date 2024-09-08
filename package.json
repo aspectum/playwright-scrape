@@ -6,7 +6,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "scrape": "tsx src/scrape.ts"
+    "scrape": "tsx src/scrape.ts",
+    "merge": "tsx src/merge.ts"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
