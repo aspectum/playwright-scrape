@@ -10,7 +10,8 @@
     "merge": "tsx src/merge.ts",
     "clean-html": "tsx src/clean-html.ts",
     "filter": "tsx src/filter.ts",
-    "ebook": "bash src/make-ebook.sh"
+    "ebook": "bash src/make-ebook.sh",
+    "fix-kindle": "ebook-convert ./output/wcss.epub ./output/fix.azw3 --output-profile kindle_pw3 && ebook-convert ./output/fix.azw3 ./output/fix.epub --output-profile kindle_pw3"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
