@@ -9,7 +9,8 @@
     "scrape": "tsx src/scrape.ts",
     "merge": "tsx src/merge.ts",
     "clean-html": "tsx src/clean-html.ts",
-    "filter": "tsx src/filter.ts"
+    "filter": "tsx src/filter.ts",
+    "ebook": "bash src/make-ebook.sh"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
