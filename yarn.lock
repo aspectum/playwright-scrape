@@ -257,6 +257,11 @@ htmlparser2@^9.1.0:
     domutils "^3.1.0"
     entities "^4.5.0"
 
+htmltidy2@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/htmltidy2/-/htmltidy2-1.2.0.tgz#203fe23a6517e5d07b10989e59f29f482cdb67b9"
+  integrity sha512-EDyZ7B4FZf4hCNd9KSKXz5XLhm4q/jXm1TXk2/CY2W3AnSs04xbaazPMaxr6wTp87W4ZM8Y3jJJNipAt8HXZoQ==
+
 linkedom@^0.18.4:
   version "0.18.4"
   resolved "https://registry.yarnpkg.com/linkedom/-/linkedom-0.18.4.tgz#847e81811e1ae1cba060cb13e40bebc62b600a0c"
